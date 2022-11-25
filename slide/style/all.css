@@ -1,0 +1,236 @@
+@charset "utf-8";
+
+/* Base -------------------------------------- */
+*, *::before, *::after {
+	box-sizing: border-box;
+}
+
+body {
+	font-family: Arial, Helvetica, "微軟正黑體", sans-serif;
+	/* background-color: #000; */
+}
+
+img {
+	vertical-align: bottom;
+}
+
+/* Helper ---------------------------- */
+
+.mask {
+	overflow: hidden;
+}
+
+.img-resp {
+	max-width: 100%;
+	height: auto;
+}
+
+.row {
+	margin-left: -12px;
+	margin-right: -12px;
+}
+
+/* Layout -------------------------- */
+
+.slide {
+	width: 100vw;
+	height: 100vh;
+	position: relative;
+}
+
+.nav {
+	position: absolute;
+	right: 2%;
+	top: 50%;
+	margin-top: -100px;
+	z-index: 10;
+}
+
+/* 各部位功能 --------------------------- */
+
+.slide-ls {
+	display: flex;
+	flex-wrap: wrap;
+	width: 600vw;
+	position: absolute;
+	top: 0;
+	left: 0;
+	transition: all .5s cubic-bezier(0.68, -0.6, 0.32, 1.6);
+}
+
+.slide-item {
+	width: 100vw;
+	height: 100vh;
+	/* padding: 3rem 5rem; */
+	overflow: auto;
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+.slide-item-1 {
+	/* background-color: #333; */
+	background-image: url(../images/photo_\ \(1\).png);
+}
+
+.slide-item-2 {
+	/* background-color: #dd1f8e; */
+	background-image: url(../images/photo_\ \(2\).png);
+}
+
+.slide-item-3 {
+	/* background-color: #00a7e2; */
+	background-image: url(../images/photo_\ \(3\).png);
+}
+
+.slide-item-4 {
+	/* background-color: #620294; */
+	background-image: url(../images/photo_\ \(4\).png);
+}
+
+.slide-item-5 {
+	/* background-color: #ee9a10; */
+	background-image: url(../images/photo_\ \(5\).png);
+}
+
+.slide-item-6 {
+	/* background-color: #00a7e2; */
+	background-image: url(../images/photo_\ \(6\).png);
+}
+.slide-item-7 {
+	background-color: #ee9a10;
+	background-image: url(../images/photo_\ \(7\).png);
+}
+.slide-item-8 {
+	background-color: #5899da;
+	background-image: url(../images/photo_\ \(8\).png);
+}
+.slide-item-9 {
+	background-color: #5ddfbd;
+	background-image: url(../images/photo_\ \(9\).png);
+}
+.slide-item-10 {
+	background-color: #fe4d9d;
+	background-image: url(../images/photo_\ \(10\).png);
+}
+.slide-item-11 {
+	background-color: #ff5151;
+	background-image: url(../images/photo_\ \(11\).png);
+}
+.nav input.nav-btn {
+	display: block;
+	width: 15px;
+	height: 15px;
+	margin: 15px;
+	border: none;
+	text-indent: -9999px;
+	background-color: rgba(255, 255, 255, .3);
+	cursor: pointer;
+}
+
+.nav-btn:hover {
+	background-color: #fff;
+}
+
+/* Modules 影像 ------------------------------  */
+/* .hover-overlay,
+.hover-icon {
+	position: relative;
+	display: block;
+}
+
+.hover-overlay::after {
+	content: "";
+	background-color: rgba(0, 0, 0, 0);
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+}
+
+.hover-overlay:hover::after {
+	background-color: rgba(0, 0, 0, .5);
+} */
+
+/* Modules 圖標 ------------------------------  */
+
+/* .hover-icon i {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	font-size: 2rem;
+	color: #fff;
+	z-index: 1;
+	margin-top: -1rem;
+	margin-left: -1rem;
+	transform: scale(0);
+}
+
+.hover-icon:hover i {
+	transform: scale(1);
+} */
+
+/* Modules 補間動畫 ------------------------------  */
+
+/* .hover-transition::after,
+.hover-transition i,
+.hover-transition>.img-resp {
+	transition: all .3s;
+} */
+
+/* Modules 縮放影像 ------------------------------  */
+/* .hover-scale {
+	overflow: hidden;
+}
+
+.hover-scale:hover>.img-resp {
+	transform: scale(1.2);
+} */
+
+/* State ------------------------------ */
+.js-nav-btn {
+	background-color: #fff!important;
+}
+
+.js-nav {
+	background-color: rgba(0,0,0,.7)!important;
+}
+
+.js-nav .nav-btn {
+	background-color: #666!important;
+}
+
+/* RWD -------------------------------- */
+
+/* @media screen and (max-width: 1024px) {
+	.pd-intro, .pd-foot {
+		width: 80%;
+	}
+} */
+
+/* @media screen and (max-width: 480px) {
+	.nav {
+		top: 0;
+		margin-top: 0;
+		left: 0;
+		display: flex;
+		width: 100%;
+		justify-content: center;
+	}
+
+	.slide-item {
+		padding: 4rem 2rem 2rem;
+	}
+
+	.pd-intro, .pd-foot {
+		width: auto;
+	}
+
+	.pd-head {
+		text-align: center;
+	}
+
+	.pd-item {
+		width: 50%;
+	}
+} */
