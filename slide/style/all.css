@@ -68,53 +68,42 @@ img {
 }
 
 .slide-item-1 {
-	/* background-color: #333; */
-	background-image: url(../images/photo_\ \(1\).png);
+	background-image: url(../images/photo1.png);
 }
 
 .slide-item-2 {
-	/* background-color: #dd1f8e; */
-	background-image: url(../images/photo_\ \(2\).png);
+	background-image: url(../images/photo2.png);
 }
 
 .slide-item-3 {
-	/* background-color: #00a7e2; */
-	background-image: url(../images/photo_\ \(3\).png);
+	background-image: url(../images/photo3.png);
 }
 
 .slide-item-4 {
-	/* background-color: #620294; */
-	background-image: url(../images/photo_\ \(4\).png);
+	background-image: url(../images/photo4.png);
 }
 
 .slide-item-5 {
-	/* background-color: #ee9a10; */
-	background-image: url(../images/photo_\ \(5\).png);
+	background-image: url(../images/photo5.png);
 }
 
 .slide-item-6 {
-	/* background-color: #00a7e2; */
-	background-image: url(../images/photo_\ \(6\).png);
+	background-image: url(../images/photo6.png);
 }
 .slide-item-7 {
-	background-color: #ee9a10;
-	background-image: url(../images/photo_\ \(7\).png);
+	background-image: url(../images/photo7.png);
 }
 .slide-item-8 {
-	background-color: #5899da;
-	background-image: url(../images/photo_\ \(8\).png);
+	background-image: url(../images/photo8.png);
 }
 .slide-item-9 {
-	background-color: #5ddfbd;
-	background-image: url(../images/photo_\ \(9\).png);
+	background-image: url(../images/photo9.png);
 }
 .slide-item-10 {
-	background-color: #fe4d9d;
-	background-image: url(../images/photo_\ \(10\).png);
+	background-image: url(../images/photo10.png);
 }
 .slide-item-11 {
-	background-color: #ff5151;
-	background-image: url(../images/photo_\ \(11\).png);
+	background-image: url(../images/photo11.png);
 }
 .nav input.nav-btn {
 	display: block;
